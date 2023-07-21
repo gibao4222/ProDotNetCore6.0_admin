@@ -1,0 +1,84 @@
+@using Webadmin.Component;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Webadmin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Webadmin.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Componentcss.css">
+</head>
+<body>
+    <component type="typeof(Webadmin.Component.NavbarComponent) " render-mode="Static"/>
+    
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script>
+  // Lấy chiều cao của màn hình
+  var screenHeight = window.innerHeight;
+
+  // Gán chiều cao của màn hình cho div
+  var myDiv = document.getElementById('myDiv');
+  myDiv.style.height = screenHeight + 'px';
+
+  var element2 = document.getElementById("cc2");
+
+  var elementchild = element2.getElementsByClassName("child2");
+  element2.addEventListener("mouseenter",function(){
+    this.classList.add("status");
+
+    for(var i=0;i<elementchild.length;i++){
+        elementchild[i].classList.add("status");
+    }
+  });
+  element2.addEventListener("mouseleave",function(){
+    this.classList.remove("status");
+    for(var i=0;i<elementchild.length;i++){
+        elementchild[i].classList.remove("status");
+    }
+  });
+
+
+  var element3 = document.getElementById("cc3");
+
+var elementchild3 = element3.getElementsByClassName("child3");
+element3.addEventListener("mouseenter",function(){
+  this.classList.add("status");
+
+  for(var i=0;i<elementchild3.length;i++){
+      elementchild3[i].classList.add("status");
+  }
+});
+element3.addEventListener("mouseleave",function(){
+  this.classList.remove("status");
+  for(var i=0;i<elementchild3.length;i++){
+      elementchild3[i].classList.remove("status");
+  }
+});  
+
+
+
+var element4 = document.getElementById("cc4");
+
+var elementchild4 = element4.getElementsByClassName("child4");
+element4.addEventListener("mouseenter",function(){
+  this.classList.add("status");
+
+  for(var i=0;i<elementchild4.length;i++){
+      elementchild4[i].classList.add("status");
+  }
+});
+element4.addEventListener("mouseleave",function(){
+  this.classList.remove("status");
+  for(var i=0;i<elementchild4.length;i++){
+      elementchild4[i].classList.remove("status");
+  }
+});  
+</script>
+</body>
+</html>

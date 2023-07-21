@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Study\DocNet\Pro\Webadmin
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Component/TableCus.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRhYmxlQ3VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

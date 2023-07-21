@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webadmin", "Webadmin.csproj", "{72312D2B-4815-4CA3-8216-00A013C71885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webadmin", "Webadmin.csproj", "{72312D2B-4815-4CA3-8216-00A013C71885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
