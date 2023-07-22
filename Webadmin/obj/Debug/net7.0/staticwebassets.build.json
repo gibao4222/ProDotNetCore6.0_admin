@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oAja5yjAJ18fNVF7CFGtB27eWS6I2xzP83z+F/7tiQ4=",
+  "Hash": "HilF8w8ficlUMLkcP+JNDxlu6BMQskl15g1uRvmmVP8=",
   "Source": "Webadmin",
   "BasePath": "_content/Webadmin",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Webadmin.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\Componentcss.css",
+      "SourceId": "Webadmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\",
+      "BasePath": "_content/Webadmin",
+      "RelativePath": "css/Componentcss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Componentcss.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\css.css",
       "SourceId": "Webadmin",
       "SourceType": "Discovered",
@@ -66,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\css.css"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\navbarcss.css",
-      "SourceId": "Webadmin",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\",
-      "BasePath": "_content/Webadmin",
-      "RelativePath": "css/navbarcss.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\navbarcss.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\site.css",
@@ -289,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\icon\\iconamoon_category-fill.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\material-symbols_person-outline.png",
+      "SourceId": "Webadmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\",
+      "BasePath": "_content/Webadmin",
+      "RelativePath": "icon/material-symbols_person-outline.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\material-symbols_person-outline.png"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\mdi_face-outline.png",
       "SourceId": "Webadmin",
       "SourceType": "Discovered",
@@ -406,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon\\Ticket.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\Vector.png",
+      "SourceId": "Webadmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\",
+      "BasePath": "_content/Webadmin",
+      "RelativePath": "icon/Vector.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon\\Vector.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\Work.png",

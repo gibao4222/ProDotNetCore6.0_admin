@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\Webadmin.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\css.css",
-      "PackagePath": "staticwebassets\\css\\css.css"
+      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\Componentcss.css",
+      "PackagePath": "staticwebassets\\css\\Componentcss.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\navbarcss.css",
-      "PackagePath": "staticwebassets\\css\\navbarcss.css"
+      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\css.css",
+      "PackagePath": "staticwebassets\\css\\css.css"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\css\\site.css",
@@ -39,6 +39,10 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\Ticket.png",
       "PackagePath": "staticwebassets\\icon\\Ticket.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\Vector.png",
+      "PackagePath": "staticwebassets\\icon\\Vector.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\Work.png",
@@ -75,6 +79,10 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\iconamoon_category-fill.png",
       "PackagePath": "staticwebassets\\icon\\iconamoon_category-fill.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\material-symbols_person-outline.png",
+      "PackagePath": "staticwebassets\\icon\\material-symbols_person-outline.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\wwwroot\\icon\\mdi_face-outline.png",

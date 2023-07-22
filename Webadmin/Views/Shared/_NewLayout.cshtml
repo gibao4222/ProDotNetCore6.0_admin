@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Webadmin.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Componentcss.css">
+    <link rel="stylesheet" href="~/css/css.css">
+
 </head>
 <body>
+    <component type="typeof(Webadmin.Component.HeaderComponent) " render-mode="Static"/>
     <component type="typeof(Webadmin.Component.NavbarComponent) " render-mode="Static"/>
+    <component type="typeof(Webadmin.Component.TableComponent) " render-mode="Static"/>
     
     <div class="">
         <main role="main" class="pb-3">
@@ -26,14 +30,42 @@
   var myDiv = document.getElementById('myDiv');
   myDiv.style.height = screenHeight + 'px';
 
+
+  var elements = document.querySelectorAll("[id^='cc']");
+  elements.forEach(function(element){
+    element.addEventListener("click",function(event){
+      var clickID = event.currentTarget.id;
+      console.log(clickID);
+      var element2 = document.getElementById(clickID);
+      var subCovertElement2 = element2.querySelector(".covert");
+      var subRowElement2 = element2.querySelector(".row");
+
+      var elementchild = element2.getElementsByClassName("child");
+      element2.addEventListener("click",function(){
+        this.classList.toggle("status");
+        subCovertElement2.classList.toggle("covert_Click");
+        subRowElement2.classList.toggle("row_Click");
+
+        for(var i=0;i<elementchild.length;i++){
+            elementchild[i].classList.toggle("status");
+        }
+      });
+    });
+  });
+
+@* 
   var element2 = document.getElementById("cc2");
+  var subCovertElement2 = element2.querySelector(".covert");
+  var subRowElement2 = element2.querySelector(".row");
 
   var elementchild = element2.getElementsByClassName("child2");
-  element2.addEventListener("mouseenter",function(){
-    this.classList.add("status");
+  element2.addEventListener("click",function(){
+    this.classList.toggle("status");
+    subCovertElement2.classList.toggle("covert_Click");
+    subRowElement2.classList.toggle("row_Click");
 
     for(var i=0;i<elementchild.length;i++){
-        elementchild[i].classList.add("status");
+        elementchild[i].classList.toggle("status");
     }
   });
   element2.addEventListener("mouseleave",function(){
@@ -78,7 +110,8 @@ element4.addEventListener("mouseleave",function(){
   for(var i=0;i<elementchild4.length;i++){
       elementchild4[i].classList.remove("status");
   }
-});  
+});   *@
 </script>
+<script src="~/js/script.js"></script>
 </body>
 </html>

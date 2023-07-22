@@ -50,6 +50,80 @@
         }
       },
       {
+        "HashCode": -2091791297,
+        "Kind": "Components.Component",
+        "Name": "Webadmin.Component.HeaderComponent",
+        "AssemblyName": "Webadmin",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HeaderComponent"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Webadmin.Component.HeaderComponent",
+          "Common.TypeNameIdentifier": "HeaderComponent",
+          "Common.TypeNamespace": "Webadmin.Component",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1661871125,
+        "Kind": "Components.Component",
+        "Name": "Webadmin.Component.HeaderComponent",
+        "AssemblyName": "Webadmin",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Webadmin.Component.HeaderComponent"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Webadmin.Component.HeaderComponent",
+          "Common.TypeNameIdentifier": "HeaderComponent",
+          "Common.TypeNamespace": "Webadmin.Component",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1340188760,
+        "Kind": "Components.Component",
+        "Name": "Webadmin.Component.TableComponent",
+        "AssemblyName": "Webadmin",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TableComponent"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Webadmin.Component.TableComponent",
+          "Common.TypeNameIdentifier": "TableComponent",
+          "Common.TypeNamespace": "Webadmin.Component",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2102351694,
+        "Kind": "Components.Component",
+        "Name": "Webadmin.Component.TableComponent",
+        "AssemblyName": "Webadmin",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Webadmin.Component.TableComponent"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Webadmin.Component.TableComponent",
+          "Common.TypeNameIdentifier": "TableComponent",
+          "Common.TypeNamespace": "Webadmin.Component",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -719291332,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
@@ -18692,6 +18766,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\Component\\HeaderComponent.razor",
+      "TargetPath": "Component\\HeaderComponent.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -18725,6 +18804,11 @@
       "FilePath": "c:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\Study\\DocNet\\Pro\\Webadmin\\Component\\TableComponent.razor",
+      "TargetPath": "Component\\TableComponent.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.3"

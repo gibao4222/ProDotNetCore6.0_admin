@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Study\DocNet\Pro\Webadmin
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Component/HeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEhlYWRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Component/NavbarComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XE5hdmJhckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Component/TableComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRhYmxlQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/Study/DocNet/Pro/Webadmin/Views/Home/Index.cshtml]
